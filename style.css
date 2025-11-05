@@ -1,0 +1,60 @@
+body {
+  font-family: arial, sans-serif;
+  margin: 20px;
+  background-color:#f5f5f5;
+}
+
+#container {
+  width: 100%;
+  max-width:1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 8px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+#notation {
+  width: 100% !important;
+  height: auto !important;
+  display: inline-block;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+#controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #5f492f;
+  color: white;
+  cursor: pointer;
+}
+
+.responsive-btn {
+  padding: 0.75em 1.5em;         /* Relative spacing */
+  font-size: 1.2em;              /* Responsive to root font size */
+  margin: 0.5em;                 /* Space between buttons */
+  min-width: 60px;               /* WCAG recommended min touch target */
+  min-height: 60px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background-color: #372918;
+}
+
+input[type="file"] {
+  margin: 10px 0;
+}
+
+
+g.note.playing {
+  fill: crimson;
+}
