@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" xml:id="mscore-M2tt7wremo_7vkV7YBqrEC" meiversion="5.1+basic">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Untitled score</title>
+            <title type="subordinate">Subtitle</title>
+            <respStmt>
+               <persName role="composer">Composer / arranger</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2025-12-01T14:29:45" />
+         </pubStmt>
+      </fileDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <pgHead func="first" />
+                  <staffGrp>
+                     <staffGrp bar.thru="true" symbol="brace">
+                        <label>Piano</label>
+                        <labelAbbr>Pno.</labelAbbr>
+                        <instrDef midi.instrnum="0" />
+                        <staffDef n="1" lines="5" keysig="3f" meter.count="4" meter.unit="4">
+                           <clef shape="G" line="2" />
+                        </staffDef>
+                        <staffDef n="2" lines="5" keysig="3f" meter.count="4" meter.unit="4">
+                           <clef shape="F" line="4" />
+                        </staffDef>
+                     </staffGrp>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <pb />
+                  <measure xml:id="mscore-ZR0t3AhlgDN_mX9lQ.DCfFP" metcon="false" n="1">
+                     <staff xml:id="m1s1" n="1">
+                        <layer xml:id="m1s1l1" n="1">
+                           <note xml:id="mscore-BEznqzZ1cxG_O5EWCkSvF-I" dur="4" pname="d" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m1s2" n="2">
+                        <layer xml:id="m1s2l1" n="1">
+                           <rest xml:id="mscore-eQtYkNw8A2O_CBAJ-8BRs7I" dur="4" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mscore-WVcKZYjoJLF_VW5Zkds2gxP" n="2">
+                     <staff xml:id="m2s1" n="1">
+                        <layer xml:id="m2s1l1" n="1">
+                           <note xml:id="mscore-KDqCVSvSlCC_lStvV4QxhwJ" dots="1" dur="2" pname="e" oct="4">
+                              <accid accid.ges="f" />
+                           </note>
+                           <note xml:id="mscore-jA8vWpQ5YmC_A0UxncAsxKI" dur="4" pname="g" oct="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m2s2" n="2">
+                        <layer xml:id="m2s2l1" n="1">
+                           <chord xml:id="mscore-ppaasQP7fVI_QrMg7KQNUbL" dur="1">
+                              <note xml:id="mscore-TDbL6wTnLHK_Tesn-yvEWuH" pname="c" oct="3" />
+                              <note xml:id="mscore-dxLO4vdFPSB_5jXXvgo8FtB" pname="e" oct="3">
+                                 <accid accid.ges="f" />
+                              </note>
+                              <note xml:id="mscore-c70q.CKZ3JG_m6cMJl84c1D" pname="g" oct="3" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mscore-JrSA2w5RUqF_K.JiK8G2YBE" right="end" n="3">
+                     <staff xml:id="m3s1" n="1">
+                        <layer xml:id="m3s1l1" n="1">
+                           <note xml:id="mscore-pYDG5YpklTF_Y.Iz0dSlLWB" dur="4" pname="f" oct="4" />
+                           <note xml:id="mscore-.fLqsYLX.AL_zfNAYXr5EuH" dur="2" pname="d" oct="4" />
+                           <rest xml:id="mscore-WsZCpU3LBxF_nhRSdS.nONE" dur="4" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="m3s2" n="2">
+                        <layer xml:id="m3s2l1" n="1">
+                           <chord xml:id="mscore-hXAMIaRENtO_Ss5nl6DRZ1I" dur="1">
+                              <note xml:id="mscore-clHvljdNw-J_DLwW4CI-u-N" pname="b" oct="2">
+                                 <accid accid.ges="f" />
+                              </note>
+                              <note xml:id="mscore-FQYTbE8exjH_nR1jd5hMfZO" pname="d" oct="3" />
+                              <note xml:id="mscore-mK5kdTcDX8L_ItxJxGB7-VH" pname="f" oct="3" />
+                           </chord>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
