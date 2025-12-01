@@ -5,7 +5,7 @@ body {
 }
 
 #container {
-  width: 100%;
+  width:fit-content;
   max-width:1000px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -15,8 +15,6 @@ body {
 }
 
 #notation {
-  width: 100% !important;
-  height: auto !important;
   display: inline-block;
   margin: 0 auto;
   overflow-x: auto;
